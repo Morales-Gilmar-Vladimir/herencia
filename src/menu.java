@@ -52,11 +52,22 @@ public class menu {
                 "0978844556","Capricornio", 22,"Aucas","Delantero",29,"carlos Paez", 5);
 
         System.out.println("\n");
+        System.out.println(Maritza.getNombre()+" es Futbolista");
+        System.out.println("Entrena "+Maritza.getHoras_Entr()+" horas diarias");
+        Maritza.correr();
 
+        Estudiante Melanie = new Estudiante(0,"Melanie","0","0","0","0",0,0,"0","0","0");
+        Melanie.setNombre("\nMelanie");
+        Melanie.setSemestre("Tercer");
+        System.out.println(Melanie.getNombre()+" es Estudiante");
+        System.out.println("Esta en "+Melanie.getSemestre()+" semestre");
+        Melanie.memorizar();
+        /*
         for (Estudiante integrante : integrantes ){
             System.out.print(integrante.getNombre()+ " "+ integrante.getApellido());
             System.out.println("\n");
             integrante.leer();
+*/
         }
     }
-}
+
