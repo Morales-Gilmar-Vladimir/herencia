@@ -53,5 +53,10 @@ public class menu {
 
         System.out.println("\n");
 
+        for (Estudiante integrante : integrantes ){
+            System.out.print(integrante.getNombre()+ " "+ integrante.getApellido());
+            System.out.println("\n");
+            integrante.leer();
+        }
     }
 }
